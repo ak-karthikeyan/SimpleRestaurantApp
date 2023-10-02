@@ -1,0 +1,82 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: top;
+  width: auto;
+  height: 100vh;
+}
+
+h1 {
+  color: salmon;
+  -webkit-text-stroke: 1px black;
+}
+
+.home h4 {
+  margin-right: 85%;
+}
+
+.about {
+  padding-left: 1%;
+  text-align: center;
+  margin-top: -1%;
+}
+
+.home .menu-button {
+  margin-top: 2%;
+  width: 12rem;
+  height: 2rem;
+  border-radius: 1rem;
+  font-weight: bold;
+  background-color: salmon;
+  font-family: endlants;
+}
+
+.list-item {
+  width: 50vw;
+  display: flex;
+  flex-direction: row;
+  align-items: justify;
+  justify-content: space-between;
+  padding: 1%;
+  font-weight: 500;
+}
+
+.list-item button {
+  width: 5rem;
+  height: 1.5rem;
+  border-radius: 1rem;
+  background-color: salmon;
+  font-style: italic;
+  font-family: endlants;
+}
+
+.content {
+  text-align: center;
+}
+
+.content ul {
+  list-style-type: none;
+  padding: 10px;
+}
+
+.item-nonveg {
+  color: crimson;
+}
+
+.item-veg {
+  color: green;
+}
+
+.drink-mocktail {
+  color: green;
+}
+
+.drink-cocktail {
+  color: crimson;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+}

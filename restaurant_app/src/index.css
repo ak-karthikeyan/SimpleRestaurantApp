@@ -1,0 +1,29 @@
+body {
+  background-color: blanchedalmond;
+  display: flex;
+  flex-direction: row;
+  align-items: top;
+  justify-content: center;
+
+  /* border: 1px solid red; */
+  margin: 0;
+  font-family: endlants;
+}
+
+@font-face {
+  font-family: "endlants";
+  src: local("endlants"),
+    url(./fonts/endlants-endlants-regular-400.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "endlants";
+  font-weight: 900;
+  src: local("endlants"),
+    url(./fonts/endlants-endlants-bold-700.ttf) format("truetype");
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
